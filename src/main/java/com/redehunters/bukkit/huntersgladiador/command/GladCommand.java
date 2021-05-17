@@ -9,6 +9,9 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.PluginCommand;
 import org.bukkit.command.TabCompleter;
 
+import lombok.Data;
+
+@Data
 public class GladCommand implements CommandExecutor, TabCompleter {
 
 	private List<SubCommand> subCommands;
@@ -80,11 +83,6 @@ public class GladCommand implements CommandExecutor, TabCompleter {
 		}
 
 		return ((tabComplete != null) ? tabComplete : new ArrayList<>());
-	}
-
-	public List<SubCommand> getSubCommands()
-	{
-		return this.subCommands;
 	}
 
 	public void setup(PluginCommand command)
