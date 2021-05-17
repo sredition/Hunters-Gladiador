@@ -1,0 +1,34 @@
+#########################[ Hunters-Gladiador ]######################
+##                                                                ##
+##                   Encontrou algum bug? Reporte!                ##
+##                                                                ##
+##                  Email: editionsenpai@gmail.com                ##
+##                     Discord: Sr_Edition#4765                   ##
+##                                                                ##
+####################################################################
+
+
+#/------------------------------------------------------------------/
+#     Autor: ${project.author}
+#     Versão: ${project.version}
+#/------------------------------------------------------------------/
+
+
+
+#Configuração do banco de dados
+
+mysql:
+  #coloque em true para usar o MySQL, caso esteja desativado será usado SQLite no arquivo "storage.db"
+  enable: false
+  #coloque o endereço do seu banco de dados ex: "localhost".
+  #se seu MySQL estiver rodando em uma porta diferente, especifique a porta. ex: "localhost:2789"
+  hostname: "localhost"
+  #coloque o nome do seu banco de dados ex: "minecraft"
+  database: "minecraft"
+  #coloque o nome de usuário do seu banco de dados ex: "root"
+  username: "root"
+  #coloque a senha do seu usuário do seu banco de dados ex: "pass123"
+  password: ""
+  #coloque o nome do prefix das tabelas que vão ser usadas pelo plugin
+  prefix: "huntersglad_"
+

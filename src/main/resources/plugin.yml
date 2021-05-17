@@ -1,0 +1,11 @@
+name: "${project.name}"
+main: "${project.bukkitMainClass}"
+version: "${project.version}"
+description: "${project.description}"
+author: "${project.author}"
+softdepend: ["Legendchat", "PlaceholderAPI"]
+depend: ["ProtocolLib", "SimpleClans"]
+commands:
+  gladiador:
+    aliases: ["glad"]
+    description: "Comando do gladiador."
